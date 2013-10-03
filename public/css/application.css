@@ -22,6 +22,46 @@ a:hover {
 	width: 100%;
 }
 
+@media (min-width: 1304px) {
+	.list {
+		padding: 0 150px;
+	}
+
+	.nav {
+		font-size: 200%;
+	}
+}
+
+@media (max-width: 1303px) and (min-width: 854px) {
+	.list {
+		padding: 0 75px;
+	}
+
+	.nav {
+		font-size: 200%;
+	}
+}
+
+@media (max-width: 853px) and (min-width: 554px) {
+	.list {
+		padding: 0 25px;
+	}
+
+	.nav {
+		font-size: 200%;
+	}
+}
+
+@media (max-width: 553px) {
+	.list {
+		padding: 0 25px;
+	}
+
+	.nav {
+		font-size: 100%;
+	}
+}
+
 #static-nav {
 	background-color: black;
 	padding: 0;
@@ -34,12 +74,10 @@ a:hover {
 	color: white;
 	font-family: "HelveticaNeue-Thin";
 	text-decoration: none;
-	font-size: 200%;
 }
 
 .list {
 	display: inline;
-	padding: 0 150px;
 }
 
 nav a {
@@ -124,7 +162,7 @@ nav a {
 /*about*/
 
 #about {
-	width: 1100px;
+	width: 60%;
 	margin: 150px auto 0 auto;
 }
 
@@ -146,7 +184,7 @@ nav a {
 /*projects*/
 
 #projects {
-	width: 1100px;
+	width: 60%;
 	margin: 150px auto 0 auto;
 }
 
@@ -184,7 +222,7 @@ hr {
 /*resume*/
 
 #resume {
-	width: 1100px;
+	width: 60%;
 	margin: 150px auto 0 auto;
 }
 
