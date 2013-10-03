@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "HelveticaNeue-Thin";
+  src: url('HelveticaNeue/HelveticaNeueLTPro-Th.otf');
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url('HelveticaNeue/HelveticaNeueLTPro-Hv.otf');
+}
+
+body {
+	height: 100%;
+}
+
+a:hover {
+  color: gray;
+}
+
+#nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#static-nav {
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+.nav {
+	color: white;
+	font-family: "HelveticaNeue-Thin";
+	text-decoration: none;
+	font-size: 200%;
+}
+
+.list {
+	display: inline;
+	padding: 0 150px;
+}
+
+nav a {
+	display: inline-block;
+}
+
+.list:first-child {
+	padding-left: 0;
+}
+
+.list:last-child {
+	padding-right: 0;
+}
+
+#content {
+	width: 900px;
+	margin: auto;
+	padding: 275px 0 0 25px;
+}
+
+#ryan {
+	float: left;
+	margin: 0 4% 15% 0;
+	width: 22%;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 100px;
+}
+
+#name {
+    font-size: 300%;
+    margin: 0;
+ }
+
+#web {
+	font-size: 250%;
+	font-style: italic;
+	margin: 0;
+}
+
+#description {
+	font-family: "HelveticaNeue-Thin";
+	margin: 15px 0 0 0;
+	width: 90%;
+	line-height: 130%;
+	font-size: 150%;
+}
+
+#details {
+	margin: 175px auto;
+	width: 900px;
+}
+
+.nav-li {
+	display: inline;
+}
+
+#main-nav {
+	padding: 0;
+	text-align: center;
+
+}
+
+.links {
+	padding: 35px;
+    font-family: "HelveticaNeue-Thin";
+    color: black;
+    font-size: 250%;
+    text-decoration: none;
+}
+
+.links:first-child {
+	padding-left: 0;
+}
+
+.logo {
+	width: 30px;
+	height: auto;
+	margin-right: 5px;
+}
+
+/*about*/
+
+#about {
+	width: 1100px;
+	margin: 150px auto 0 auto;
+}
+
+.questions {
+  font-family: 'HelveticaNeue', sans;
+  font-weight: 100;
+  font-size: 300%;
+}
+
+.answers {
+  font-family: 'Georgia', sans;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 5% 0;
+  font-size: 150%;
+  text-align: justify;
+}
+
+/*projects*/
+
+#projects {
+	width: 1100px;
+	margin: 150px auto 0 auto;
+}
+
+.projects-h1 {
+  font-family: "HelveticaNeue-Thin";
+  font-weight: lighter;
+  font-size: 250%;
+  margin: 4% 0;
+}
+
+.projects-p {
+  text-align: justify;
+  font-family: 'Georgia', sans;
+  line-height: 35px;
+  font-size: 150%;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  margin: 7% 0;
+}
+
+.preview {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  margin-bottom: 4%
+}
+
+.preview:hover {
+  box-shadow: -2px -2px 3px #888;
+}
+
+/*resume*/
+
+#resume {
+	width: 1100px;
+	margin: 150px auto 0 auto;
+}
+
+#lower {
+  margin: auto;
+  width: 85%;
+}
+
+ul {
+  margin: 1% auto;
+  list-style: none;
+  display: block;
+}
+
+.resume-h1 {
+  font-family: "HelveticaNeue-Thin";
+  font-size: 250%;
+  font-weight: lighter;
+  text-align: center;
+  margin: 4% 0;
+}
+
+#dl-button {
+  width: 25px;
+  height: auto;
+  padding-left: 5px;
+}
+
+#skills {
+  margin-bottom: 2%;
+}
+
+.resume-h2 {
+  font-family: 'Helvetica';
+  margin: 5% auto 2% auto;
+  text-align: center;
+}
+
+.resume-h3 {
+  font-family: 'Georgia';
+  margin: 2% auto;
+  text-align: center;
+}
+
+.project-link {
+  margin: 2% auto;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+}
+
+.resume-p {
+  margin: 1% auto 4% auto;
+  font-size: 110%;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+#projects-resume {
+  font-weight: bolder;
+  margin-bottom: 4%;
+}
+
+#project-list {
+  padding: 0;
+}
+
+.project-li {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+.languages {
+  margin: 2% 4%;
+  font-size: 150%;
+  display: inline-block;
+}
