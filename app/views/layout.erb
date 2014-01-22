@@ -17,13 +17,23 @@
   <link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body>
-  <nav id="navbar">
-    <div class="nav-links">
-      <a href="https://twitter.com/KristineLeahy" target="_blank"><img src="images/twitter.png" class="nav-image"></a>
-      <a href="https://www.facebook.com/kristine.leahy.5" target="_blank"><img src="images/facebook.png" class="nav-image"></a>
-      <a href="http://instagram.com/kristineleahy" target="_blank"><img src="images/instagram.png" class="nav-image" id="instagram"></a>
+  <nav id="social">
+    <div class="social-links">
+      <a href="https://twitter.com/KristineLeahy" target="_blank"><img src="images/twitter.png" class="social-image"></a>
+      <a href="https://www.facebook.com/pages/Kristine-Leahy/174233969301227" target="_blank"><img src="images/facebook.png" class="social-image"></a>
+      <a href="http://instagram.com/kristineleahy" target="_blank"><img src="images/instagram.png" class="social-image" id="instagram"></a>
     </div>
   </nav>
-  <%= yield %>
+  <div class="main">
+    <nav id="navbar">
+      <a href="/">Home</a>
+      <a href="/bio">Bio</a>
+      <a href="/video">Video</a>
+      <a href="/contact">Contact</a>
+      <a href="/social">Social</a>
+      <a href="/links">Links</a>
+    </nav>
+    <%= yield %>
+  </div>
 </body>
 </html>

@@ -8,3 +8,4 @@ gem 'sinatra-contrib'
 gem 'thin'
 gem 'shotgun'
 
+gem 'twitter'
