@@ -4,9 +4,8 @@
 }
 
 body {
-  background: url('../images/backround_plain.png') no-repeat center center fixed;
-  background-size: cover; 
   font-family: 'Gotham';
+  height: 100%;
 }
 
 .bar {
@@ -115,15 +114,32 @@ a:hover {
 
 .container {
   width: 900px;
-  margin: 140px auto 0 auto;
+  margin: 0 auto 0 auto;
   padding-bottom: 80px;
+}
+
+#main {
+  width: 100%;
+  position: fixed;
+  top: 140px;
+  bottom: 80px;
+  background: url("../images/background.png");
+  background-size: cover;
+}
+
+#main-empty {
+  width: 100%;
+  background: url("../images/background_plain.png");
+  position: absolute;
+  top: 140px;
+  /*background-size: cover;*/
 }
 
 /*Index*/
 
 #index-p {
   z-index: 9001;
-  margin: 400px 0 0 40px;
+  margin: 200px 0 0 40px;
   width: 350px;
   text-align: justify;
   font-size: 12px;
@@ -177,7 +193,7 @@ hr {
 #video-header {
   font-size: 28px;
   font-weight: 100;
-  margin: 180px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .video {
@@ -205,7 +221,7 @@ hr {
 #social-header {
   font-size: 28px;
   font-weight: 100;
-  margin: 180px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 #social-images {
@@ -231,7 +247,7 @@ hr {
 #contact-header {
   font-size: 28px;
   font-weight: 100;
-  margin: 180px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 #contact-info {
@@ -252,8 +268,8 @@ hr {
 
 #contact-image {
   width: 900px;
-  position: fixed;
-  top: 300px;
+  margin: -300px 0 0 0;
+  float: right;
   z-index: -1;
 }
 
@@ -262,7 +278,7 @@ hr {
 #links-header {
   font-size: 28px;
   font-weight: 100;
-  margin: 180px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 #link-image {
