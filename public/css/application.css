@@ -93,23 +93,20 @@ nav a {
 
 /*Index*/
 
-#index-container {
-  width: 900px;
-  height: 600px;
-  margin: 180px auto 0 auto;
-  padding-bottom: 80px;
-  position: absolute;
-}
-
 #index-p {
-  position: relative;
-  top: 50%;
-  right: 0;
-  margin: -80px 0 0 40px;
+  z-index: 9001;
+  margin: 400px 0 0 40px;
   width: 350px;
   text-align: justify;
   font-size: 12px;
   line-height: 25px;
+}
+
+#index-image {
+  width: 950px;
+  position: fixed;
+  top: 130px;
+  z-index: -1;
 }
 
 #index-name {
@@ -210,9 +207,28 @@ hr {
 }
 
 #contact-info {
-  margin: 50px 0 0 10px
+  margin: 200px 0 0 50px;
+  z-index: 9001;
 }
 
 #contact-info p {
   margin: 5px;
+}
+
+#contact-image {
+  width: 900px;
+  position: fixed;
+  top: 300px;
+  z-index: -1;
+}
+
+#links-header {
+  font-size: 28px;
+  font-weight: 100;
+  margin: 220px 0 0 0;
+}
+
+#link-image {
+  width: 400px;
+  float: right;
 }
