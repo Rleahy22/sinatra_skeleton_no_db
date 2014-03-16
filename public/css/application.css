@@ -115,7 +115,6 @@ a:hover {
 .container {
   width: 900px;
   margin: 0 auto 0 auto;
-  padding-bottom: 80px;
 }
 
 #main {
@@ -130,8 +129,7 @@ a:hover {
 #main-empty {
   width: 100%;
   background: url("../images/background_plain.png");
-  position: absolute;
-  top: 140px;
+  padding-top: 140px;
   /*background-size: cover;*/
 }
 
@@ -163,6 +161,7 @@ a:hover {
   width: 400px;
   margin: 50px 0 0 10px;
   display: inline-block;
+  padding-bottom: 200px;
 }
 
 #bio-header {
@@ -255,6 +254,7 @@ hr {
   margin: 200px 0 0 50px;
   z-index: 9001;
   text-align: center;
+  padding-bottom: 300px;
 }
 
 #contact-info p {
@@ -268,12 +268,16 @@ hr {
 
 #contact-image {
   width: 900px;
-  margin: -300px 0 0 0;
+  margin: -600px 0 0 0;
   float: right;
   z-index: -1;
 }
 
 /*Links*/
+
+#links-content {
+  padding-bottom: 600px;
+}
 
 #links-header {
   font-size: 28px;
@@ -284,4 +288,5 @@ hr {
 #link-image {
   width: 400px;
   float: right;
+  margin-top: -600px;
 }
