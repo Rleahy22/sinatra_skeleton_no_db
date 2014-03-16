@@ -20,6 +20,33 @@ body {
   top: 0;
 }
 
+#inner-bar {
+  height: 40px;
+}
+
+#social-nav {
+  width: 900px;
+  height: 40px;
+  margin: auto;
+  text-align: right;
+}
+
+#social-nav img {
+  padding-top: 5px;
+}
+
+#instagram {
+  height: 35px;
+}
+
+#twitter {
+  height: 38px;
+}
+
+#facebook {
+  height: 38px;
+}
+
 #bottom-bar {
   height: 80px;
   position: fixed;
@@ -64,7 +91,7 @@ body {
   font-weight: 100;
 }
 
-nav {
+#main-nav {
   position: relative;
   top: 45px;
   left: 200px;
@@ -80,7 +107,7 @@ a:hover {
   color: silver;
 }
 
-nav a {
+#main-nav a {
   text-decoration: none;
   font-weight: 600;
   padding: 0 25px;
@@ -88,7 +115,7 @@ nav a {
 
 .container {
   width: 900px;
-  margin: 180px auto 0 auto;
+  margin: 140px auto 0 auto;
   padding-bottom: 80px;
 }
 
@@ -104,9 +131,9 @@ nav a {
 }
 
 #index-image {
-  width: 950px;
+  width: 980px;
   position: fixed;
-  top: 130px;
+  top: 90px;
   z-index: -1;
 }
 
@@ -150,7 +177,7 @@ hr {
 #video-header {
   font-size: 28px;
   font-weight: 100;
-  margin: 220px 0 0 0;
+  margin: 180px 0 0 0;
 }
 
 .video {
@@ -178,7 +205,7 @@ hr {
 #social-header {
   font-size: 28px;
   font-weight: 100;
-  margin: 220px 0 0 0;
+  margin: 180px 0 0 0;
 }
 
 #social-images {
@@ -204,7 +231,7 @@ hr {
 #contact-header {
   font-size: 28px;
   font-weight: 100;
-  margin: 220px 0 0 0;
+  margin: 180px 0 0 0;
 }
 
 #contact-info {
@@ -230,10 +257,12 @@ hr {
   z-index: -1;
 }
 
+/*Links*/
+
 #links-header {
   font-size: 28px;
   font-weight: 100;
-  margin: 220px 0 0 0;
+  margin: 180px 0 0 0;
 }
 
 #link-image {
