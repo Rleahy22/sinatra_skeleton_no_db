@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 
-    normalize.css removes cross-browser differences in defaults, e.g.,
-    differences in how form elements appear between Firefox and IE
-    See: http://necolas.github.com/normalize.css/
-  -->
   <link rel="stylesheet" href="/css/normalize.css">
-  <!--
-    application.css is where you put your styles
-  -->
   <link rel="stylesheet" href="/css/application.css">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
@@ -17,23 +9,24 @@
   <link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body>
-  <nav id="social">
-    <div class="social-links">
-      <a href="https://twitter.com/KristineLeahy" target="_blank"><img src="images/twitter.png" class="social-image"></a>
-      <a href="https://www.facebook.com/pages/Kristine-Leahy/174233969301227" target="_blank"><img src="images/facebook.png" class="social-image"></a>
-      <a href="http://instagram.com/kristineleahy" target="_blank"><img src="images/instagram.png" class="social-image" id="instagram"></a>
+  <div class="bar" id="top-bar"></div>
+  <div id="nav">
+    <div id="inner-nav">
+      <div id="logo">
+        <h1 id="kristine">KRISTINE</h1>
+        <h1 id="leahy">LEAHY</h1>
+      </div>
+      <nav>
+        <a href="/">HOME</a>
+        <a href="/bio">BIO</a>
+        <a href="/video">VIDEO</a>
+        <a href="/social">SOCIAL</a>
+        <a href="/contact">CONTACT</a>
+        <a href="/links">LINKS</a>
+      </nav>
     </div>
-  </nav>
-  <div class="main">
-    <nav id="navbar">
-      <a href="/">Home</a>
-      <a href="/bio">Bio</a>
-      <a href="/video">Video</a>
-      <a href="/contact">Contact</a>
-      <a href="/social">Social</a>
-      <a href="/links">Links</a>
-    </nav>
-    <%= yield %>
   </div>
+  <%= yield %>
+  <div class="bar" id="bottom-bar"></div>
 </body>
 </html>
