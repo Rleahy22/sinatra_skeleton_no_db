@@ -86,15 +86,26 @@ nav a {
 }
 
 .container {
-  width: 900px;  
+  width: 900px;
   margin: 180px auto 0 auto;
   padding-bottom: 80px;
 }
 
 /*Index*/
 
+#index-container {
+  width: 900px;
+  height: 600px;
+  margin: 180px auto 0 auto;
+  padding-bottom: 80px;
+  position: absolute;
+}
+
 #index-p {
-  margin: 400px 0 0 10px;
+  position: relative;
+  top: 50%;
+  right: 0;
+  margin: -80px 0 0 40px;
   width: 350px;
   text-align: justify;
   font-size: 12px;
@@ -190,3 +201,18 @@ hr {
   margin-right: 50px
 }
 
+/*Contact*/
+
+#contact-header {
+  font-size: 28px;
+  font-weight: 100;
+  margin: 220px 0 0 0;
+}
+
+#contact-info {
+  margin: 50px 0 0 10px
+}
+
+#contact-info p {
+  margin: 5px;
+}

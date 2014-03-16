@@ -7,5 +7,3 @@ gem 'sinatra-contrib'
 # Use Thin for our web server
 gem 'thin'
 gem 'shotgun'
-
-gem 'twitter'
