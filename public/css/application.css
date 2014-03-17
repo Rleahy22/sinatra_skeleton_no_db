@@ -128,19 +128,16 @@ a:hover {
 /*Index*/
 
 #index-p {
-  z-index: 9001;
-  margin: 200px 0 0 40px;
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+  margin-left: 50px;
+  /*margin: 200px 0 0 40px;*/
   width: 350px;
+  height: 200px;
   text-align: justify;
   font-size: 12px;
   line-height: 25px;
-}
-
-#index-image {
-  width: 980px;
-  position: fixed;
-  top: 90px;
-  z-index: -1;
 }
 
 #index-name {
