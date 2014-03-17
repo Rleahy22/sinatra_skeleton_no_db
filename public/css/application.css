@@ -224,21 +224,22 @@ hr {
 }
 
 #social-images {
-  display: inline-block;
   width: 400px;
+  float: left;
 }
 
 .social-image {
-  width: 200px;
+  display: none;
+  width: 400px;
   height: auto;
   margin: 0;
 }
 
 .twitter-timeline {
-  float: right;
-  height: 500px;
+  display: inline;
+  height: 550px;
   width: 400px;
-  margin-right: 50px
+  margin-left: 99px;
 }
 
 /*Contact*/
