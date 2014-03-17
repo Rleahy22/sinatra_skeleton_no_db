@@ -34,9 +34,14 @@
       </nav>
     </div>
   </div>
-  <div id="main-empty">
-    <%= yield %>
-  </div>
-  <div class="bar" id="bottom-bar"></div>
+  <% if !@index %>
+    <div id="main-empty">
+      <%= yield %>
+    </div>
+  <% else %>
+    <div id="main">
+      <%= yield %>
+    </div>
+  <% end %>
 </body>
 </html>

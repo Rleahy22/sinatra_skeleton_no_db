@@ -1,6 +1,8 @@
 require 'sinatra'
 
 get '/' do
+  @index = true
+  
 	erb :index
 end
 
