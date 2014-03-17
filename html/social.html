@@ -1,37 +1,81 @@
-<div class="container">
-  <h1 id="social-header">SOCIAL</h1>
-  <hr>
-  <div id="social-images">
-    <img src="images/pitino.jpg" alt="Kristine with Rick Pitino" class="social-image" id="first-social">
-    <img src="images/back_jersey.jpg" alt="Kristine in a Ducks Jersey" class="social-image">
-    <img src="images/ducks.jpg" alt="Kristine in a Ducks Jersey" class="social-image">
-    <img src="images/petrino.jpg" alt="Kristine with Bobby Petrino" class="social-image">
-    <img src="images/blue_dress.jpg" alt="Kristine on the Dugout Phone" class="social-image">
-    <img src="images/kobe.jpg" alt="Kristine with Kobe Bryant" class="social-image">
-    <img src="images/turiaf.jpg" alt="Kristine with Ronny Turiaf" class="social-image">
-    <img src="images/blue_purple.jpg" alt="Kristine in the Studio" class="social-image">
-    <img src="images/golf.jpg" alt="Kristine with a golfer" class="social-image">
-    <img src="images/trout.jpg" alt="Kristine with Mike Trout" class="social-image">
-    <img src="images/kristineandkg.jpg" alt="Kristine with Kevin Garnett" class="social-image">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/application.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+  <title>Kristine Leahy</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+  <div class="bar" id="top-bar">
+    <div id="inner-bar">
+      <nav id="social-nav">
+        <a href="https://twitter.com/KristineLeahy" target="_blank"><img src="images/twitter.png" alt="Twitter - Kristine Leahy" id="twitter"></a>
+        <a href="http://instagram.com/kristineleahy" target="_blank"><img src="images/instagram.png" alt="Instagram - Kristine Leahy" id="instagram"></a>
+        <a href="https://www.facebook.com/pages/Kristine-Leahy/174233969301227" target="_blank"><img src="images/facebook.png" alt="Facebook - Kristine Leahy" id="facebook"></a>
+      </nav>
+    </div>
   </div>
-  <a class="twitter-timeline" href="https://twitter.com/KristineLeahy" data-widget-id="425828405561413633">Tweets by @KristineLeahy</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
+  <div id="nav">
+    <div id="inner-nav">
+      <div id="logo">
+        <h1 id="kristine">KRISTINE</h1>
+        <h1 id="leahy">LEAHY</h1>
+      </div>
+      <nav id="main-nav">
+        <a href="/">HOME</a>
+        <a href="/bio">BIO</a>
+        <a href="/video">VIDEO</a>
+        <a href="/social">SOCIAL</a>
+        <a href="/contact">CONTACT</a>
+        <a href="/links">LINKS</a>
+      </nav>
+    </div>
+  </div>
+  <div id="main-empty">
+    <div class="container">
+      <h1 id="social-header">SOCIAL</h1>
+      <hr>
+      <div id="social-images">
+        <img src="images/pitino.jpg" alt="Kristine with Rick Pitino" class="social-image" id="first-social">
+        <img src="images/back_jersey.jpg" alt="Kristine in a Ducks Jersey" class="social-image">
+        <img src="images/ducks.jpg" alt="Kristine in a Ducks Jersey" class="social-image">
+        <img src="images/petrino.jpg" alt="Kristine with Bobby Petrino" class="social-image">
+        <img src="images/blue_dress.jpg" alt="Kristine on the Dugout Phone" class="social-image">
+        <img src="images/kobe.jpg" alt="Kristine with Kobe Bryant" class="social-image">
+        <img src="images/turiaf.jpg" alt="Kristine with Ronny Turiaf" class="social-image">
+        <img src="images/blue_purple.jpg" alt="Kristine in the Studio" class="social-image">
+        <img src="images/golf.jpg" alt="Kristine with Wayne Gretzky" class="social-image">
+        <img src="images/trout.jpg" alt="Kristine with Mike Trout" class="social-image">
+        <img src="images/kristineandkg.jpg" alt="Kristine with Kevin Garnett" class="social-image">
+      </div>
+      <div id="social-content">
+        <a class="twitter-timeline" href="https://twitter.com/KristineLeahy" data-widget-id="425828405561413633" data-tweet-limit="3">Tweets by @KristineLeahy</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <a href="http://instagram.com/kristineleahy" target="_blank" class="social-links"><img src="images/instagram.png" alt="Instagram - Kristine Leahy" id="instagram-social"></a>
+        <a href="https://www.facebook.com/pages/Kristine-Leahy/174233969301227" target="_blank" class="social-links"><img src="images/facebook.png" alt="Facebook - Kristine Leahy" id="facebook-social"></a>
+      </div>
+    </div>
 
-<script>
-  var counter = 1;
+    <script>
+      var counter = 1;
 
-  $('#social-images img:nth-child(' + counter + ')').show();
-
-  var slide = setInterval(function() {
-    if (counter < 11) {
-      $('#social-images img:nth-child(' + counter + ')').hide();
-      counter++;
       $('#social-images img:nth-child(' + counter + ')').show();
-    } else {
-      $('#social-images img:nth-child(' + counter + ')').hide();
-      counter = 1;
-      $('#social-images img:nth-child(' + counter + ')').show();
-    }
-  }, 3000);
-</script>
+
+      var slide = setInterval(function() {
+        if (counter < 11) {
+          $('#social-images img:nth-child(' + counter + ')').hide();
+          counter++;
+          $('#social-images img:nth-child(' + counter + ')').show();
+        } else {
+          $('#social-images img:nth-child(' + counter + ')').hide();
+          counter = 1;
+          $('#social-images img:nth-child(' + counter + ')').show();
+        }
+      }, 3000);
+    </script>
+  </div>
+</body>
+</html>
